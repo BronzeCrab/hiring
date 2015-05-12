@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails>
+    <email id="90">
+        <to>user_90@domain.tld</to>
+        <subject>subj #90</subject>
+    </email>
+    <email id="57">
+        <to>user_57@domain.tld</to>
+        <subject>subj #57</subject>
+    </email>
+    <email id="83">
+        <to>user_83@domain.tld</to>
+        <subject>subj #83</subject>
+    </email>
+    <email id="60">
+        <to>user_60@domain.tld</to>
+        <subject>subj #60</subject>
+    </email>
+    <email id="79">
+        <to>user_79@domain.tld</to>
+        <subject>subj #79</subject>
+    </email>
+    <email id="33">
+        <to>user_33@domain.tld</to>
+        <subject>subj #33</subject>
+    </email>
+    <email id="17">
+        <to>user_17@domain.tld</to>
+        <subject>subj #17</subject>
+    </email>
+    <email id="57">
+        <to>user_57@domain.tld</to>
+        <subject>subj #57</subject>
+    </email>
+    <email id="20">
+        <to>user_20@domain.tld</to>
+        <subject>subj #20</subject>
+    </email>
+    <email id="80">
+        <to>user_80@domain.tld</to>
+        <subject>subj #80</subject>
+    </email>
+    <email id="38">
+        <to>user_38@domain.tld</to>
+        <subject>subj #38</subject>
+    </email>
+    <email id="83">
+        <to>user_83@domain.tld</to>
+        <subject>subj #83</subject>
+    </email>
+</emails>
