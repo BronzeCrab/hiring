@@ -32,14 +32,6 @@ except Exception:
     print "It seems that it's not an xml file"
     sys.exit()
 
-root = tree.getroot()
-
-# unix-socket /var/run/mysqld/mysqld.sock
-#     username    u1
-#     password    984hfwGTw2Fqs22q
-#     database    sender
-#     table       results
-
 server_address = '/var/run/mysqld/mysqld.sock'
 # Make sure the socket exists
 if not os.path.exists(server_address):
@@ -78,6 +70,8 @@ if data == None:
         print "Something went wrong, table hasn't been created"
         sys.exit()
 
+# It is necessaty to find root first to parse xml using ET
+root = tree.getroot()
 # iterating through all xml, parsing fields, skipping dublicates fetching db
 # I will use this list of id's to check for dublicates:
 ids = []
@@ -86,7 +80,7 @@ for email in root.findall('email'):
     subject = email.find('subject').text
     _id = email.get('id')
     if _id in ids:
-        print "Dubplicate id=%s in xml while pasring, skipping it" % _id
+        print "Dubplicate id=%s in xml while parsing, skipping it" % _id
         continue
     ids.append(_id)
     # preparing data for request
