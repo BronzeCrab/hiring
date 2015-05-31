@@ -11,7 +11,9 @@
 
 При реализации будет проще задавать параметры запроса, тоесть если в случае с MySQL мне пришлось:
 `import json`
+
 `message = json.dumps({"to":to,"subject":subject})`
+
     `payload = { "id": _id,`
              `  "message": message`
               `}`
