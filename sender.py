@@ -25,7 +25,7 @@ if len(args) != 1:
 if not os.path.exists(args[0]):
     print "Invalid path to xml file"
     sys.exit()
-# I will ElementTree module to parse xml, but now just check if
+# I will use ElementTree module to parse xml, but now just check if
 # xml file is ok
 try:
     tree = ET.parse(args[0])
