@@ -1,7 +1,8 @@
 # Тестовое задание
  Чтобы запустить sender.py необходимо установить модули requests и MySQLdb:
  
- `pip install requests`; `pip install MySQL-python`
+ `pip install requests` 
+ `pip install MySQL-python`
 
 
 ### ВАРИАЦИЯ РЕАЛИЗАЦИИ
