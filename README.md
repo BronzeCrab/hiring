@@ -3,7 +3,8 @@
  
  `pip install requests` 
  `pip install MySQL-python`
-
+ Также, если вы запускаете за Ubuntu возможно придеться сделать:
+ `sudo apt-get install python-dev` перед установкой MySQL-python
 
 ### ВАРИАЦИЯ РЕАЛИЗАЦИИ
 Вместо MySQL можно воспользоваться MongoDB 
