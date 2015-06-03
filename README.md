@@ -3,7 +3,7 @@
  
  `pip install requests` 
  `pip install MySQL-python`
- Также, если вы запускаете за Ubuntu возможно придеться сделать:
+ Также, если вы запускаете на Ubuntu возможно придется сделать:
  `sudo apt-get install python-dev` перед установкой MySQL-python
 
 ### ВАРИАЦИЯ РЕАЛИЗАЦИИ
